@@ -15,7 +15,7 @@ This project is using `discord-rpc` (NPM library) and powered by JavaScript (Nod
  - Click on `OAuth2 --> General` and copy your Client ID and store it somewhere for later
  - Click on `Rich Presence --> Art Assets` and upload some images (2) what you want to use later
  - Run `git clone https://github.com/matejmajny/Discord-RPC` or download [zip file](https://github.com/matejmajny/Discord-RPC/archive/refs/heads/main.zip)
- - Open downloaded folder and execute `run.sh(Linux) or run.bat(Windows)` and **select Install option**
+ - Open downloaded folder and execute `run.sh(Linux) or run.bat(Windows)` and **select Install option** or just run `npm i` (recommended)
  - Open config.js with Notepad++ and [configure it](https://github.com/matejmajny/Discord-RPC/edit/main/README.md#configjs-configuration)
  - [Run IT!](https://github.com/matejmajny/Discord-RPC/edit/main/README.md#run-it)
  
@@ -49,5 +49,6 @@ This project is using `discord-rpc` (NPM library) and powered by JavaScript (Nod
 - Run `run.sh or run.bat` and select Run [R] option.
 - P.S: Untested, but should work
 
-#### Option 2:
-- Run `node index.js` in command line/terminaô
+#### Option 2: 
+- Run `node index.js` in command line/terminal 
+- I personally recommend this option
