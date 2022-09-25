@@ -24,4 +24,3 @@ rpc.on("ready", () => {
 })
 
 rpc.login({ clientId: config.clientID })
-console.log("Logged as: " + config.clientID)
