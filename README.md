@@ -5,7 +5,6 @@ This project is using `discord-rpc` (NPM library) and powered by JavaScript (Nod
 - [NodeJS](https://nodejs.org)
 - [Discord](https://discord.com)
 - [PM2](https://pm2.keymetrics.io/) (Optional - for app background use)
-- [Git](https://git-scm.com/) (Optional - you can just use download zip on GitHub
 - [Notepad++](https://notepad-plus-plus.org/downloads/) (or some different program what can edit .json files)
 
 
@@ -14,12 +13,12 @@ This project is using `discord-rpc` (NPM library) and powered by JavaScript (Nod
  - Click on `New Application` and name your app by that what you want **title of your RPC to be!**
  - Click on `OAuth2 --> General` and copy your Client ID and store it somewhere for later
  - Click on `Rich Presence --> Art Assets` and upload some images (2) what you want to use later
- - Run `git clone https://github.com/matejmajny/Discord-RPC` or download [zip file](https://github.com/matejmajny/Discord-RPC/archive/refs/heads/main.zip)
- - Open downloaded folder and execute `run.sh(Linux) or run.bat(Windows)` and **select Install option** or just run `npm i`
- - Open config.js with Notepad++ and [configure it](https://github.com/matejmajny/Discord-RPC/edit/main/README.md#configjs-configuration)
+ - Download version of your choice from release
+ - Edit [config.js](https://github.com/matejmajny/Discord-RPC/edit/main/README.md#configjs-configuration) or use built-in editor in GUI editions.
  - [Run IT!](https://github.com/matejmajny/Discord-RPC/edit/main/README.md#run-it)
  
 ## config.js configuration
+- ***This doesnt need to be done when using GUI.***
 - put everything what should be in mentioned line to "putItHere"
 ```
 {
@@ -39,14 +38,18 @@ This project is using `discord-rpc` (NPM library) and powered by JavaScript (Nod
 
 ## Run IT!
 
-### Run on background:
+### Run with GUI
+- Download GUI version for your OS based on your system.
+- App is pretty simple so this doesnt need further information ig
+- Note: This does not support background running
+
+### Background mode:
 - Install PM2 if you havent already `npm install pm2 -g`
 - Run `pm2 start index.js` in Command Line/Terminal
 - Run `pm2 list` and check if app is running!
+- Note: This makes app run fully on background, kill it with `pm2 stop <name>`
 
-### Run on foreground:
-#### Option 1:
-- Run `run.sh or run.bat` and select Run [R] option.
+### Command line mode (foreground):
 
-#### Option 2: 
-- Run `node index.js` in command line/terminal 
+- Run `node index.js` in command line/terminal
+- Note: I guess this requires more of tech skill?
