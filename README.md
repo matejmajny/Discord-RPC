@@ -5,7 +5,7 @@ This project is using `discord-rpc` (NPM library) and powered by JavaScript (Nod
 - [NodeJS](https://nodejs.org)
 - [Discord](https://discord.com)
 - [PM2](https://pm2.keymetrics.io/) (Optional - for app background use)
-- [Notepad++](https://notepad-plus-plus.org/downloads/) (or some different program what can edit .json files)
+- [Notepad++](https://notepad-plus-plus.org/downloads/) (Optional - you can choose different program and is not required for GUI)
 
 
 ## How to set it up?
