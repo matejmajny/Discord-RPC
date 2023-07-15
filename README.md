@@ -17,7 +17,7 @@ This project is using `discord-rpc` (NPM library) and powered by JavaScript (Nod
  - Edit [config.js](https://github.com/matejmajny/Discord-RPC/edit/main/README.md#configjs-configuration) or use built-in editor in GUI editions.
  - [Run IT!](https://github.com/matejmajny/Discord-RPC/edit/main/README.md#run-it)
  
-## config.js configuration
+## config.js configuration (CLI)
 - ***This doesnt need to be done when using GUI.***
 - put everything what should be in mentioned line to "putItHere"
 ```
