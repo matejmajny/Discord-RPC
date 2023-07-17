@@ -31,7 +31,7 @@ This project is using `discord-rpc` (NPM library) and powered by JavaScript (Nod
 #### How to set it up?
  - Download [Universal_CLI.zip](https://github.com/matejmajny/Discord-RPC/releases/latest) or `git clone` this repository.
  - Make sure that you have [registered your RPC](https://github.com/matejmajny/Discord-RPC/edit/main/README.md#register-your-rpc-on-discord-website-mandatory-for-all)
- - Edit [config.js](https://github.com/matejmajny/Discord-RPC/edit/main/README.md#configjs-configuration)
+ - Edit [config.js](https://github.com/matejmajny/Discord-RPC/tree/main#configjs-configuration-cli-)
  - **CLI:** Run `npm install` and `node index.js` in command line/terminal
  - **GUI:** Run `pip3 install nicegui` and `python3 gui.py` in command line/terminal
  
@@ -45,7 +45,9 @@ This project is using `discord-rpc` (NPM library) and powered by JavaScript (Nod
 - [Notepad++](https://notepad-plus-plus.org/downloads/) (Optional - you can choose different program)
 
 #### How to set it up?:
+
 - Install PM2 if you havent already `npm install pm2 -g`
+- Edit [config.js](https://github.com/matejmajny/Discord-RPC/tree/main#configjs-configuration-cli-)
 - Run `pm2 start index.js` in Command Line/Terminal
 - Run `pm2 list` and check if app is running!
 - Note: This makes app run fully on background, kill it with `pm2 stop <name>`
