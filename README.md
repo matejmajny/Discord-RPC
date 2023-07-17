@@ -36,7 +36,7 @@ This project is using `discord-rpc` (NPM library) and powered by JavaScript (Nod
  - **GUI:** Run `pip3 install nicegui` and `python3 gui.py` in command line/terminal
  
 
-### 3. Run on background
+### 3. Run on background (Linux, MacOS, Windows)
 
 #### Make sure you have installed:
 - [NodeJS](https://nodejs.org)
