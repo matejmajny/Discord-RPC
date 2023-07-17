@@ -2,6 +2,8 @@
 This project is using `discord-rpc` (NPM library) and powered by JavaScript (Node.js), it should  run on every common OS (Linux, MacOS, Windows)
 
 #### Make sure you have installed:
+- You do not need install any of these when using Windows Installer
+- [Python](https.//python.org)
 - [NodeJS](https://nodejs.org)
 - [Discord](https://discord.com)
 - [PM2](https://pm2.keymetrics.io/) (Optional - for app background use)
