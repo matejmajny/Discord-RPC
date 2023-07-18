@@ -20,7 +20,7 @@ This project is using `discord-rpc` (NPM library) and powered by JavaScript (Nod
  - Process is pretty straightforward from there so it doesn't need further explanation I think.
 
 
-### 2. Running raw code files (Linux, MacOS, Windows)
+### 2. Running raw code files GUI/CLI (Linux, MacOS, Windows)
 
 #### Make sure you have installed:
 - [Python](https.//python.org) - only if you want to use GUI
