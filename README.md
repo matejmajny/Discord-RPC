@@ -53,7 +53,7 @@ This project is using `discord-rpc` (NPM library) and powered by JavaScript (Nod
 - Note: This makes app run fully on background, kill it with `pm2 stop <name>`
 
 
-### config.js configuration (CLI) 🔧
+## config.js configuration (CLI) 🔧
 - ***This doesnt need to be done when using GUI.***
 - put everything what should be in mentioned line to "putItHere"
 ```
